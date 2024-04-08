@@ -27,28 +27,27 @@
 
 To create the calculator, classic JavaScript was used. Creating such a project requires the use of conditional statements and mathematics. It is important to carefully calculate all mathematical operations to avoid mathematical errors. Also, in this project, a "scrolling line" is used.</p>
 
-    <h1>Technical Description of the Project</h1>
+<h2>Technical Description of the Project</h2>
 
-    <h2>Installation</h2>
-    <p>
+<h3>Installation</h3>
+     <p>
         Download or clone the project repository using the following command:
         <code>git clone &lt;repository_url&gt;</code> in your terminal.
     </p>
     <p>Move into the project directory.</p>
 
-    <h2>Configuration</h2>
+<h3>Configuration</h3>
     <p>
         Ensure that you have Node.js and npm installed to manage project dependencies.
         Run <code>npm install</code> to install all necessary project dependencies.
     </p>
-
-    <h2>Running the Project</h2>
+<h3>Running the Project</h3>
     <p>
         After installing dependencies, start the project by running <code>npm start</code>.
         Open your web browser and go to <code>http://localhost:port</code>, where <em>port</em> is the port on which the server is running.
     </p>
 
-    <h2>How to Contribute to the Project</h2>
+<h3>How to Contribute to the Project</h3>
     <ul>
         <li>If you have ideas for improving the project or fixing bugs, you can contribute by creating new branches and sending pull requests.</li>
         <li>You can help the project by spreading the word to others and providing useful comments and feedback.</li>
