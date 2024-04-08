@@ -25,37 +25,34 @@
 <h2>Technical specifications and challenges faced during the project development.</h2>
 <p>
 
-The project utilized JavaScript functions that enable selecting only one correct answer and awarding points for it. Additionally, a method was used to generate random numbers within a specified range. It was necessary to ensure that users input only numbers and only within the specified range. Random selection of words from an array was also applied.</p>
+To create the calculator, classic JavaScript was used. Creating such a project requires the use of conditional statements and mathematics. It is important to carefully calculate all mathematical operations to avoid mathematical errors. Also, in this project, a "scrolling line" is used.</p>
 
-<h2>Technical Description of the Project</h2>
+    <h1>Technical Description of the Project</h1>
 
-<p>Project "Games" is designed to display the different games using JavaScript. To install and configure the project, follow these steps:
-<ol>
-<li><strong>Project Installation:</strong>
+    <h2>Installation</h2>
+    <p>
+        Download or clone the project repository using the following command:
+        <code>git clone &lt;repository_url&gt;</code> in your terminal.
+    </p>
+    <p>Move into the project directory.</p>
+
+    <h2>Configuration</h2>
+    <p>
+        Ensure that you have Node.js and npm installed to manage project dependencies.
+        Run <code>npm install</code> to install all necessary project dependencies.
+    </p>
+
+    <h2>Running the Project</h2>
+    <p>
+        After installing dependencies, start the project by running <code>npm start</code>.
+        Open your web browser and go to <code>http://localhost:port</code>, where <em>port</em> is the port on which the server is running.
+    </p>
+
+    <h2>How to Contribute to the Project</h2>
     <ul>
-       <li>Clone the project repository from GitHub using the following command: <b>git clone <repository_url></b>.</li>
-       <li>Navigate to the project directory.</li>
+        <li>If you have ideas for improving the project or fixing bugs, you can contribute by creating new branches and sending pull requests.</li>
+        <li>You can help the project by spreading the word to others and providing useful comments and feedback.</li>
+        <li>If you encounter a bug or face an issue while using the project, report it to the developers so they can address it.</li>
     </ul>
-</li>
-<li> <strong>Configuration:</strong>
-    <ul>
-       <li>If required, install dependencies using a package manager like npm or yarn: <b>npm install</b> or <b>yarn install</b></li>
-       <li>Configure any environment variables or settings needed for the project.</li>
-    </ul>
-</li>
-<li> <strong>Running the Project:</strong>
-   <ul>
-      <li>After installation and configuration, start the development server: <b>npm start</b> or <b>yarn start</b></li>
-      <li>Open the project in your preferred web browser by navigating to the provided local server address.</li>
-   </ul>
-</li>
-<li><strong>Contributing to the Project:</strong>
-  <ul>
-     <li>Fork the project repository on GitHub.</li>
-     <li>Make necessary changes or enhancements to the codebase.</li>
-      <li>Ensure that your changes follow the project's coding standards and guidelines.</li>
-      <li>Test your changes thoroughly to avoid introducing bugs.</li>
-      <li>Submit a pull request to the original repository, explaining the changes you've made and their purpose.</li>
-  </ul>
-</li>
-<p>By following these steps, you can install, configure, and contribute to the project effectively.</p>
+
+
