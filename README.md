@@ -5,15 +5,15 @@
 <ul>
 <div>
     <li>A Educational project on creating a calculator for calculating tourist tax in Montenegro.
-    <img src="/screen_shots_game/Screen Shot 2024-04-08 at 9.49.36 AM.png" alt="quiz">
+    <img src="/screen_shots_tax/Screen Shot 2024-04-08 at 12.30.42 PM.png" alt="calculator">
 </div>
 <div>
-    <li> The second game is a <b>competition</b> against the computer. You have to guess the number that the computer has chosen using hints.</li>
-    <img src="/screen_shots_game/Screen Shot 2024-04-08 at 9.50.17 AM.png" alt="game with computer">
+    <li> In the calculator, you need to enter the number of adults, children, and the number of nights you plan to spend in the country. You also need to select the "Child Age Category".</li>
+    <img src="/screen_shots_tax/Screen Shot 2024-04-08 at 12.31.19 PM.png" alt="calculator">
 </div>
 <div>
-    <li> The third game is the well-known game of Crocodile. When you press the first button, a <b>random</b> word appears that you need to act out. Don't forget to press the second button to start the timer for 2 minutes</li>
-    <img src="/screen_shots_game/Screen Shot 2024-04-08 at 9.49.52 AM.png" alt="game crocodile">
+    <li> After entering all the data, the calculator will calculate the total tax for your entire stay in Montenegro, separately showing how much needs to be paid for adults and how much for children.</li>
+    <img src="/screen_shots_tax/Screen Shot 2024-04-08 at 12.31.41 PM.png" alt="calculator">
 </div>
 </ul>
 <h2>The following technologies were used in the project:</h2>
