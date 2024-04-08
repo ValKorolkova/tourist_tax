@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist's Tax</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <h1 id="header"></h1>
+        <form>
+            
+            <p>Number of adults</p>
+            <input  id="adultsNumber" type="text" placeholder="How many adults??">
+
+            <p>Number of kids</p>
+            <input  id="kidsNumber" type="text" placeholder="How many kids?">
+
+            <p>Number of nights</p>
+            <input id="night" type="text" placeholder="How many nights?">
+
+            <p>Choose your tax</p>
+            <button id="chooseTax">Tax</button>
+            <select id="tax">
+                <option disabled>Select an option</option>
+                <option value="00.00" selected>Kid 0-12 age. 0€.</option>
+                <option value="00.50">Teen 12-18 age. 0.5€.</option>
+            </select>
+            <button id="btn">Calculate</button>
+        </form>
+        <div id="showTotal">
+            <div id="adultSum">
+                <p>Adult tax</p>
+                <span id="adultTax"></span>
+                <p>for</p>
+                <span class="sumNight"></span>
+                <span>night(s)</span>
+            </div>
+            <div id="kidSum">
+                <p>Kids tax</p>
+                <span id="kidTax"></span>
+                <p>for</p>
+                <span class="sumNightKid"></span>
+                <span>night(s)</span>
+            </div>
+            <div id="totalTax">
+                <p>Total</p>
+                <span id="adultAndKid"></span>
+                <p>for</p>
+                <span class="sumNights"></span>
+                <span>night(s)</span>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+</html>
